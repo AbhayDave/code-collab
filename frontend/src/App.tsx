@@ -1,12 +1,12 @@
-import './App.css'
+import { Link } from "react-router-dom";
+import "./App.css";
 
 function App() {
-
   return (
-    <>
-      <button className="btn btn-primary">One</button>
-    </>
+    <Link to={"/home"} className="btn btn-primary">
+      Home
+    </Link>
   );
 }
 
-export default App
+export default App;
